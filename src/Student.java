@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Main {
+
+public class Student {
     public static void main(String[] args) {
-        Scanner name = new Scanner(System.in);
+        Scanner ab = new Scanner(System.in);
         Student jonas = new Student();
         System.out.println("jonas");
-    }
-
+        }
     }
