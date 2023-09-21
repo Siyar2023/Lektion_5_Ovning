@@ -12,11 +12,11 @@ public class Main {
         // Fråga efter ett heltal X
         System.out.print("Ange ett heltal X: ");
         int X = myScanner.nextInt();
-        myScanner.nextLine(); // Läs upp överbliven rad
+        myScanner.nextLine();
 
-        // Loop för att visa heltalen från 1 till X
+        // Loop för att visa ett tal från 1 till X
         for (int i = 1; i <= X; i++) {
-            System.out.println(i); // Ta bort onödig + före i
+            System.out.println(i);
         }
 
 
